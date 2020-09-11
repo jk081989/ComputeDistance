@@ -31,7 +31,7 @@ class ComputeDistancetest {
 		TddPoint tddpoint = new TddPoint(3,5);
 		TddPoint tddpoint2 = new TddPoint3D(2,3,4);
 		double actual = tddpoint.distance(tddpoint2);
-		System.out.println("Test 2D to 3D "+actual );
+		//System.out.println("Test 2D to 3D "+actual );
 		assertEquals(2.23606797749979, actual);
 	}
 	
